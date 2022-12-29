@@ -16,7 +16,9 @@ coins      = ["BTC"]
 </pre>
 
 ## Run
-> python3 binance.py
+```
+$ python3 binance.py
+```
 
 ## Data
 - https://www.binance.com/bapi/margin/v1/public/margin/vip/spec/history-interest-rate
@@ -35,7 +37,7 @@ coins      = ["BTC"]
 ```
 ##  Destination
 ```
-	    dist/
+	dist/
         ├── <coin A>
         ├── <coin B>                   
         │   ├── <date>.json          
