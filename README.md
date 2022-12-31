@@ -7,12 +7,9 @@
 - Python 3.0.0+
 
 ## Config in binance.py
+- By changing the input values of Binance to control the periods
 <pre>
-startYear  = 2020
-startMonth = 1
-endYear    = 2022
-endMonth   = 12
-coins      = ["BTC"]
+binance = Binance(startYear=2022, startMonth=10, endYear=2022, endMonth=12)
 </pre>
 
 ## Run

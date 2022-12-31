@@ -1,0 +1,7 @@
+# Application related directories
+dist/
+dist.zip
+debug/
+
+.idea
+__pycache__
